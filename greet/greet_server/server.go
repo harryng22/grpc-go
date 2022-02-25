@@ -9,9 +9,7 @@ import (
 	"google.golang.org/grpc"
 )
 
-type server struct{
-	func mustEmbedUnimplementedGreetServiceServer(){}
-}
+type server struct{}
 
 func main(){
 	fmt.Println("Hello world")
